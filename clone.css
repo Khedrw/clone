@@ -55,3 +55,16 @@ button:hover {
     padding: 15px;
     background-color: #fff;
 }
+footer {
+    background-color: #0073e6;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 5px solid #005bb5;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+footer p {
+    margin: 0;
+}
