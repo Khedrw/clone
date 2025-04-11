@@ -1,9 +1,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f5f5f5;
 }
 header {
-    background-color: #ffffff;
+    background-color: #eccc73;
     border-bottom: 1px solid #ececec;
     padding: 20px;
     display: flex;
@@ -45,26 +44,39 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #005bb5;
 }
-.card {
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    border-radius: 8px;
-    padding: 15px;
-    background-color: #fff;
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+.main-phrase {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.choose-language {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
 }
 footer {
-    background-color: #0073e6;
+    background-color: #eccc73;
     color: #000;
     text-align: center;
     padding: 20px;
     font-size: 14px;
-    border-top: 5px solid #005bb5;
+    border-radius: 7px;
     margin-top: 40px;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
 }
 footer p {
     margin: 0;
+    border: 20px;
+    border-radius: 4px;
+    background-color: #ececec;
 }
